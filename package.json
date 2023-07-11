@@ -8,6 +8,7 @@
     "build": "tsc",
     "prepare": "pnpm build"
   },
+  "bin": "dist/index.js",
   "keywords": ["hot-reload", "css"],
   "author": "nazo6",
   "license": "MIT",
